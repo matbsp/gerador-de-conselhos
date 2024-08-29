@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+    
+
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.texto-conselho, .texto-conselho, .fa-pause{
+    color:hsl(193, 38%, 86%);
+}
+
+button{
+    outline:none;
+    border:none;
+}

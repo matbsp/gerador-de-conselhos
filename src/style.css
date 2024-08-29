@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    width: 400px;
+    height: 250px;
+    border-radius: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px 0px 5px 0px;
+}
+
+h1 {
+    font-size: 15px;
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    display:inline;
+    position:relative;
+    top:-90px;
+    left:125px;
+    
+}
+
+.texto-conselho {
+    font-size: 13px;
+    width: 200px;
+    height: 104px;
+    position:relative;
+    top:28px;
+    right:20px;
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-161px, 20px);
+}
+
+
+.fa-pause {
+    height: 15px;
+    transform: translate(-133px, 70px);
+
+}
+
+
+.fa-square {
+    color: black;
+    width: 30px;
+    height: 30px;
+}
+
+@media(max-width:425px) {
+
+}
